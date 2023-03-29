@@ -1,0 +1,6 @@
+# -- git ignore file
+# -- finder database files
+.DS_Store
+# -- Xcode data directories
+DerivedData/
+**/xcuserdata/
