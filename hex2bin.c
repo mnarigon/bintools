@@ -145,7 +145,7 @@ main(int argc, char *argv[]) {
     
     //
     // -- write the binary data
-    int memory_size = end_address - start_address + 1;
+    int memory_size = end_address - start_address;
     int write_count = (int) fwrite(memory + start_address,
                                    1, memory_size, out_fp);
     if (write_count != memory_size) {

@@ -37,6 +37,8 @@
 /* Begin PBXFileReference section */
 		4260D26129D4C001006BF33A /* bin2hex */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = bin2hex; sourceTree = BUILT_PRODUCTS_DIR; };
 		4260D26C29D4C00D006BF33A /* hex2bin */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = hex2bin; sourceTree = BUILT_PRODUCTS_DIR; };
+		428BA4CE29D4E1DF00FFAC58 /* test.hex */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.hex; sourceTree = "<group>"; };
+		428BA4CF29D4E3E400FFAC58 /* test.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = test.bin; sourceTree = "<group>"; };
 		42B63C8529D4C0D400C7232D /* bin2hex.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bin2hex.c; sourceTree = "<group>"; };
 		42B63C8729D4C0E400C7232D /* intel_format.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = intel_format.c; sourceTree = "<group>"; };
 		42B63C8A29D4C0F000C7232D /* hex2bin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hex2bin.c; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				42B63C8D29D4C0FF00C7232D /* intel_format.h */,
 				42B63C8729D4C0E400C7232D /* intel_format.c */,
 				42B63C9129D4C0FF00C7232D /* types.h */,
+				428BA4CD29D4E1DF00FFAC58 /* test */,
 				42B63C8F29D4C0FF00C7232D /* IntelHexFormat.pdf */,
 				4260D25429D4BFEE006BF33A /* Products */,
 			);
@@ -89,6 +92,15 @@
 				4260D26C29D4C00D006BF33A /* hex2bin */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		428BA4CD29D4E1DF00FFAC58 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				428BA4CF29D4E3E400FFAC58 /* test.bin */,
+				428BA4CE29D4E1DF00FFAC58 /* test.hex */,
+			);
+			path = test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
